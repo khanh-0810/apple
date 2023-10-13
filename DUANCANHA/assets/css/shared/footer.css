@@ -1,0 +1,38 @@
+.footer {
+    background-color: var(--black-clr);
+}
+
+.footer-note {
+    text-align: center;
+    margin: 2rem;
+    font-size: var(--fs-xl);
+    color: var(--white-clr);
+    margin-top: 0.5rem;
+}
+
+
+.footer .navbar ul {
+    display: flex;
+    margin-bottom: 0;
+    gap: calc(var(--primary-gap) * 25);
+    padding: 5rem;
+    border-radius: 30rem 30rem 0rem 0rem;
+}
+
+.footer .navbar ul li a {
+    color: var(--white-clr);
+    font-size: var(--primary-fs);
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.footer .footer-menu-item {
+    gap: var(--primary-gap);
+}
+
+.footer .footer-menu-item i,
+.footer .footer-menu-item span {
+    color: var(--white-clr);
+    font-size: var(--fs-lg);
+}

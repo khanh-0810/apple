@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product|list</title>
+
+     <!-- General styles -->
+     <link rel="stylesheet" href="../../assets/css/variables.css">
+     <link rel="stylesheet" href="../../assets/css/base.css">
+     <link rel="stylesheet" href="../../assets/css/grid-system.css">
+     <link rel="stylesheet" href="../../assets/css/reset.css">
+
+     <!-- Specific styles -->
+     <link rel="stylesheet" href="../../assets/css/shared/header.css">
+     <link rel="stylesheet" href="../../assets/css/shared/footer.css">
+     <link rel="stylesheet" href="../../assets/css/shared/home.css">
+     <link rel="stylesheet" href="../../assets/css/shared/utilities.css">
+     <link rel="stylesheet" href="../../assets/css/shared/product-list.css">
+     
+     
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-6">
+                    <div class="row">
+                        <!-- Start - Logo -->
+                        <div class="col-sm-4 col-md-3 col-3">
+                            <div class="logo">
+                                <a href="../../index.html">
+                                    <img src="../../assets/images/logo/logodau.jpg" alt="Logo" />
+                                </a>                                
+                            </div>
+                        </div>
+                        <!-- End - Logo -->
+
+                        <!-- Start - Navigation Bar -->
+                        <div class="col-sm-8 col-md-9 col-9">
+                            <nav class="navbar">
+                                <ul>
+                                    <li>
+                                        <a href="../auth/home.html" class="navbar-item-link">
+                                            <i class='bx bxs-home'></i>
+                                            <span>Trang Chủ</span>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="./product-list.html" class="navbar-item-link">
+                                            <i class='bx bx-list-ul' ></i>
+                                            <span>Sản Phẩm</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- End - Navigation Bar -->
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-6">
+                    <div class="row">
+                        <!-- Start - Search Bar -->
+                        <div class="col-sm-10 col-md-10 col-10">
+                            <div class="search-bar centered">
+                                <form class="centered">
+                                    <input type="text" placeholder="Nhập Sản Phẩm Bạn Cần Tìm...!" />
+                                    <button type="submit centered">
+                                        <i class='bx bx-search' ></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- End - Search Bar -->
+
+                        <!-- Start - Authentication Icon -->
+                        <div class="col-sm-1 col-md-1 col-1">
+                            <a href="../auth/login.html" class="header-action-icon centered">
+                                <i class='bx bx-user-circle'></i>
+                            </a>
+                        </div>
+                        <!-- End - Authentication Icon -->
+
+                        <!-- Start - Cart Icon -->
+                        <div class="col-sm-1 col-md-1 col-1">
+                            <a class="header-action-icon centered">
+                                <i class='bx bxs-cart-add' ></i>
+                            </a>
+                        </div>
+                        <!-- End - Cart Icon -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end - header -->
+
+    <!-- Start - banner -->
+    <section class="banner-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="banner-wrapper centered">
+                        <video class="w-100 max-w-100" muted="true" loop="true" autoplay="true" src="../../assets/images/ip/large(3).mp4"></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end - banner -->
+    
+    
+
+    <!-- start - product-list -->
+
+    <main class="mt-4">
+        <section class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="section-title w-100 text-center">SẢN PHẨM</p>
+                </div>
+
+        <div class="col-12">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="category-menu">
+                            <!-- <nav> -->
+                                <ul>
+                                  <li>IPhone 15 Series
+                                    <ul>
+                                      <li>IPhone 15 Pro Max</li>
+                                      <li>IPhone 15 Pro</li>
+                                      <li>IPhone 15 Plus</li>
+                                      <li>IPhone 15</li>
+                                    </ul>
+                                  </li>
+                                  <li>IPhone 14 Series
+                                    <ul>
+                                      <li>IPhone 14 Pro Max</li>
+                                      <li>IPhone 14 Pro</li>
+                                      <li>IPhone 14 Plus</li>                            
+                                      <li>IPhone 14</li>
+                                    </ul>
+                                  </li>
+                                  <li>IPhone 13 Series
+                                    <ul>
+                                      <li>IPhone 13 Pro Max </li>
+                                      <li>IPhone 13 Pro</li>
+                                      <li>IPhone 13</li>                            
+                                      <li>IPhone 13 Mini</li>
+                                    </ul>
+                                  </li>
+                                  <li>IPhone 12 Series
+                                    <ul>
+                                      <li>IPhone 12 Pro Max</li>
+                                      <li>IPhone 12 Pro</li>
+                                      <li>IPhone 12</li>                            
+                                      <li>IPhone 12 Mini</li>
+                                    </ul>
+                                  </li>
+                                  <li>IPhone 11 Series
+                                    <ul>
+                                      <li>IPhone 11 Pro Max</li>
+                                      <li>IPhone 11 Pro</li>
+                                      <li>IPhone 11</li>                                                                  
+                                    </ul>
+                                  </li>
+                                  <li>IPhone XS/SXM
+                                    <ul>
+                                      <li>IPhone XSM</li>
+                                      <li>IPhone XS</li>
+                                      <li>IPhone x</li>                                
+                                    </ul>
+                                  </li>
+                                  <li>Sản Phẩm Kèm Thêm
+                                    <ul>
+                                      <li>Macbook</li>
+                                      <li>Apple Air Pods</li>
+                                      <li>Apple Watch</li>                                                                  
+                                    </ul>
+                                  </li>
+                                </ul>
+                              <!-- </nav> -->
+                        </div>
+                    </div>
+
+
+
+                <div class="col-9">
+                    <div class="container p-unset">
+                        <div class="row">
+
+                                    <!-- SP1 -->
+
+                                    <div class="col-4 mt-4">
+                                        <div class="product-item p-2">
+                                            <img src="../../assets/images/ip/iPhone15ProMax256GB-ChinhHangVNATitanXanhDuong.png">
+                                            
+                                            <div class="product-info centered w-100">
+                                                <h3>Iphone 15 Series</h3>
+                                            </div>
+
+                                            <div class="purchase-action w-100 centered">
+                                                <button class="buy-now">Xem Sản Phẩm</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- SP2 -->
+
+                                    <div class="col-4 mt-4">
+                                        <div class="product-item p-2">
+                                            <img src="../../assets/images/ip/IPhone14ProMax512GB-ChinhHangVNATim-removebg-preview.png">
+                                            
+                                            <div class="product-info centered w-100">
+                                                <h3>Iphone 14 Series</h3>
+                                            </div>
+
+                                            <div class="purchase-action w-100 centered">
+                                                <button class="buy-now">Xem Sản Phẩm</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- SP3 -->
+
+                                    <div class="col-4 mt-4">
+                                        <div class="product-item p-2">
+                                            <img src="../../assets/images/ip/iPhone13ProMax512GB-ChinhHangVNAVang-removebg-preview.png">
+                                            
+                                            <div class="product-info centered w-100">
+                                                <h3>Iphone 13 Series</h3>
+                                            </div>
+
+                                            <div class="purchase-action w-100 centered">
+                                                <button class="buy-now">Xem Sản Phẩm</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- SP4 -->
+
+                                    <div class="col-4 mt-4">
+                                        <div class="product-item p-2">
+                                            <img src="../../assets/images/ip/iPhone12ProMax128GB-CPODen-removebg-preview.png">
+                                            
+                                            <div class="product-info centered w-100">
+                                                <h3>Iphone 12 Series</h3>
+                                            </div>
+
+                                            <div class="purchase-action w-100 centered">
+                                                <button class="buy-now">Xem Sản Phẩm</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- SP5 -->
+
+                                    <div class="col-4 mt-4">
+                                        <div class="product-item p-2">
+                                            <img src="../../assets/images/ip/ip11promax-xanhfpt_1_-removebg-preview.png">
+                                            
+                                            <div class="product-info centered w-100">
+                                                <h3>Iphone 11 Series</h3>
+                                            </div>
+
+                                            <div class="purchase-action w-100 centered">
+                                                <button class="buy-now">Xem Sản Phẩm</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- SP6 -->
+
+                                    <div class="col-4 mt-4">
+                                        <div class="product-item p-2">
+                                            <img src="../../assets/images/ip/iphone-xsm64gbgold-removebg-preview.png">
+                                            
+                                            <div class="product-info centered w-100">
+                                                <h3>Iphone XS/XSM</h3>
+                                            </div>
+
+                                            <div class="purchase-action w-100 centered">
+                                                <button class="buy-now">Xem Sản Phẩm</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- SP7 -->
+
+                                    <div class="col-4 mt-4">
+                                        <div class="product-item p-2">
+                                            <img src="../../assets/images/ip/macbook-airm231-removebg-preview.png">
+                                            
+                                            <div class="product-info centered w-100">
+                                                <h3>Macbook</h3>
+                                            </div>
+
+                                            <div class="purchase-action w-100 centered">
+                                                <button class="buy-now">Xem Sản Phẩm</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- SP8 -->
+
+                                    <div class="col-4 mt-4">
+                                        <div class="product-item p-2">
+                                            <img src="../../assets/images/ip/AppleAirPodsPro2021-LikeNew_1-removebg-preview.png">
+                                            
+                                            <div class="product-info centered w-100">
+                                                <h3>Apple Air Pods</h3>
+                                            </div>
+
+                                            <div class="purchase-action w-100 centered">
+                                                <button class="buy-now">Xem Sản Phẩm</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- SP9 -->
+
+                                    <div class="col-4 mt-4">
+                                        <div class="product-item p-2">
+                                            <img src="../../assets/images/ip/AppleWatchUltra-removebg-preview.png">
+                                            
+                                            <div class="product-info centered w-100">
+                                                <h3>Apple Watch</h3>
+                                            </div>
+
+                                            <div class="purchase-action w-100 centered">
+                                                <button class="buy-now">Xem Sản Phẩm</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>        
+        </section>
+    </main>
+
+    <!-- end - product-list -->
+
+    <!-- start footer -->
+    <footer class="footer mt-4">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <a href="../auth/review.html" class="footer-menu-item py-2 d-flex w-100 items-center justify-center">
+                            <i class='bx bxs-comment-detail'></i>
+                            <span class="d-inline-block text-center">Đánh GIá</span>                            
+                        </a>
+                    </div>
+
+                    <div class="col-4">
+                        <a href="https://www.facebook.com/profile.php?id=100039100689775&mibextid=LQQJ4d" class="footer-menu-item py-2 d-flex w-100 items-center justify-center">
+                            <i class='bx bxl-meta'></i>
+                            <span class="d-inline-block text-center">Liên Hệ</span>                           
+                        </a>
+                    </div>
+
+                    <div class="col-4">
+                        <a href="https://maps.app.goo.gl/R32QEUUzK1daQb7MA" class="footer-menu-item py-2 d-flex w-100 items-center justify-center">
+                            <i class='bx bxs-map-alt'></i>
+                            <span class="d-inline-block text-center">Địa Chỉ</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <p class="footer-note">-Nguyễn Nhựt Khánh-</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+</body>
+</html>
+

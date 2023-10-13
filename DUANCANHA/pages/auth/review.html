@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đánh Giá</title>
+    <link rel="stylesheet" href="../../assets/css/shared/review.css">
+
+</head>
+<body>
+    <div class="review">
+        <div class="product-review">
+            <h1>Đánh giá sản phẩm</h1>
+            <div class="stars">
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+            </div>        
+            <p class="review-text">Cho Shop 5 Sao Nha Khách <3 </p>
+                <button class="submit-button">Gửi đánh giá</button>
+            <p class="reviewer"> Khánh, <em>Nguyễn Nhựt Khánh</em></p>
+        </div>
+    </div>
+    
+    <!-- js hehehe -->
+    
+    <script>
+        const stars = document.querySelectorAll(".star");
+        const reviewText = document.querySelector(".review-text");
+
+        stars.forEach((star, index) => {
+            star.addEventListener("click", () => {
+                stars.forEach((s, i) => {
+                    if (i <= index) {
+                        s.classList.add("selected");
+                    } else {
+                        s.classList.remove("selected");
+                    }
+                });
+
+                // Update review text based on the selected rating
+                switch (index) {
+                    case 0:
+                        reviewText.innerText =
+                            "Quá Tệ. Web nhàm chán không hữu ích!";
+                        break;
+                    case 1:
+                        reviewText.innerText =
+                            "Tạm Ổn. Web trả lời còn chậm!";
+                        break;
+                    case 2:
+                        reviewText.innerText =
+                            "Tốt Lắm. Web hữu ích cho người dùng.";
+                        break;
+                    case 3:
+                        reviewText.innerText =
+                            "Tuyệt Vời. Shop uy tính bán hàng chắc lượng.";
+                        break;
+                    case 4:
+                        reviewText.innerText =
+                            "Xuất Sắc. Không còn gì để nói! quá hài lòng.";
+                        break;
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
+

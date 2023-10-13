@@ -1,0 +1,83 @@
+.header {
+    padding: calc(var(--primary-gap) / 2) 0;
+    background-color: var(--black-clr);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo img {
+    width: 6rem;
+    max-width: 100%;
+}
+
+.header .navbar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header .navbar ul {
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+    gap: calc(var(--primary-gap) * 2);
+}
+
+.header .navbar ul li a {
+    color: var(--white-clr);
+    font-size: var(--primary-fs);
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.header-action-icon {
+    height: 100%;
+}
+
+.header-action-icon i {
+    font-size: var(--fs-2xl);
+    color: var(--white-clr);
+}
+
+.search-bar {
+    height: 100%;
+    --size: 3.2rem;
+}
+
+.search-bar form {
+    width: 100%;
+    --rounded: 999px;
+    background-color: var(--white-clr);
+    border-radius: var(--rounded);
+    overflow: hidden;
+}
+
+.search-bar form input {
+    flex: 1;
+    height: var(--size);
+    padding: 0 var(--primary-gap);
+}
+
+.search-bar form button {
+    width: var(--size);
+    height: var(--size);
+    will-change: background;
+    border-radius: var(--rounded);
+}
+
+.search-bar form button:hover {
+    background-color: #ebebeb;
+}
+
+.search-bar form button i {
+    margin-top: 0.6rem;
+}
